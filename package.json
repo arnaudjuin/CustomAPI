@@ -1,0 +1,20 @@
+{
+  "name": "monapi",
+  "version": "1.0.0",
+  "description": "Information for Web Services Course ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arnaud JUIN DE FAUCAL",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "bcryptjs": "^2.4.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "mariasql": "^0.2.6",
+    "mysql": "^2.16.0"
+  }
+}
