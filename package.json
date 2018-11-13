@@ -4,8 +4,8 @@
   "description": "Information for Web Services Course ",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"}
-  ,
+    "start": "node index.js"
+  },
   "author": "Arnaud JUIN DE FAUCAL",
   "license": "ISC",
   "dependencies": {
