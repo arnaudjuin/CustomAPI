@@ -1,21 +1,21 @@
 var mysql  = require('mysql');
 
 //Connect to the DATABASE
+      // var connection = mysql.createConnection({
+      //   host     : '140.118.110.32',
+      //   port : '53306',
+      //   user     : 'ws_user',
+      //   password : 'ws_fall108',
+      //   database : 'ilibrary_hw'
+      // });
+
+
 var connection = mysql.createConnection({
-  host     : '140.118.110.32',
-  port : '53306',
-  user     : 'ws_user',
-  password : 'ws_fall108',
-  database : 'ilibrary_hw'
+  host     : 'localhost',
+    user     : 'root',
+  password : '',
+  database : 'mydatabase'
 });
-
-
-// var connection = mysql.createConnection({
-//   host     : 'localhost',
-//     user     : 'root',
-//   password : '',
-//   database : 'book'
-// });
 
 
 connection.connect(function(err){

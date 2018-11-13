@@ -21,10 +21,3 @@ router.route('/logout')
 .get(Authtoken.logout);
 
 module.exports = router;
-
-// PAS AUTHORISE MESSAGE + STATUS
-// view 30 min
-// report + c comment  30 min
-
-// push
-// git
