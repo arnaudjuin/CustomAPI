@@ -23,4 +23,4 @@ app.get("/",function(req,res){
 app.use('/api', bookRoutes)
 
 
-app.listen(3000);
+app.set('port', process.env.PORT || 3000);
